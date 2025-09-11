@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact - NEW SESHANANDAM MEDICAL STORES</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="contact-page">
+  <header>
+    <nav class="nav">
+      <div class="brand"><span>💊</span> NEW SESHANANDAM MEDICAL STORES</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="meetspecialists.html">Meet Specialists</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container contact-container" data-aos="fade-up">
+    <section>
+      <h1>Contact Us</h1>
+      <form id="contact-form" action="mailto:example@example.com" method="POST">
+        <label>Name<input name="name" required></label>
+        <label>Email<input name="_replyto" type="email" required></label>
+        <label>Message<textarea name="message" rows="5" required></textarea></label>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+    <section class="map" data-aos="fade-left">
+      <h2>Our Location</h2>
+      <iframe title="shop-map" src="https://www.google.com/maps?q=sheshanandam medical shop+kothavuru junction+chodavaram,+India&output=embed" style="border:0" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 New Sheshanandam Medical Stores</p>
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script> AOS.init({ duration: 700, once: true }); </script>
+</body>
+</html>

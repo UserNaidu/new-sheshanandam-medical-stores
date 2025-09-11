@@ -1,0 +1,26 @@
+[
+  {
+    "name": "English Medicine",
+   "image": "https://via.placeholder.com/300x200?text=Paracetamol"
+  },
+  {
+    "name": "Veternary Medicine",
+    
+    "image": "https://via.placeholder.com/300x200?text=Vitamin+C"
+  },
+  {
+    "name": "Homeo Medicine",
+    
+    "image": "https://via.placeholder.com/300x200?text=Cough+Syrup"
+  },
+  {
+    "name": "Ayurvedic Medicine",
+   
+    "image": "https://via.placeholder.com/300x200?text=Cough+Syrup"
+  },
+  {
+    "name": "Generic Medicine",
+   
+    "image": "https://via.placeholder.com/300x200?text=Cough+Syrup"
+  }
+]
