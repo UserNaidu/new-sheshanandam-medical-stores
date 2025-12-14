@@ -392,4 +392,140 @@ body.meet-specialists main.container {
   background-color: rgba(71, 198, 105, 0.21); /* light medical blue */
   
 }
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 60px 15px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  /* Features */
+  .feature-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Product Grid FIX */
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .product-card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* Remove manual positioning */
+  .product-card:nth-child(1),
+  .product-card:nth-child(2),
+  .product-card:nth-child(3),
+  .product-card:nth-child(4),
+  .product-card:nth-child(5) {
+    grid-column: auto;
+    grid-row: auto;
+    margin-top: 0;
+  }
+
+  /* About & Contact */
+  .about-container,
+  .contact-container {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  /* Map FIX */
+  .map iframe {
+    width: 100%;
+    height: 280px;
+  }
+}
+@media (max-width: 480px) {
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .btn,
+  .btn-outline {
+    font-size: 14px;
+    padding: 10px 18px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+
+  /* Products container */
+  body.products-page main.container {
+    padding: 20px 15px;
+  }
+
+  /* Product grid – force single column */
+  .product-grid {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 25px;
+    margin-top: 30px;
+  }
+
+  /* Reset desktop positioning */
+  .product-card {
+    width: 100% !important;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  .product-card:nth-child(1),
+  .product-card:nth-child(2),
+  .product-card:nth-child(3),
+  .product-card:nth-child(4),
+  .product-card:nth-child(5) {
+    grid-column: auto !important;
+    grid-row: auto !important;
+    margin-top: 0 !important;
+  }
+
+  /* Product image fix */
+  .product-card img {
+    height: 180px;
+  }
+}
+@media (max-width: 480px) {
+
+  .product-card {
+    padding: 25px;
+  }
+
+  .product-card h3 {
+    font-size: 1.1rem;
+  }
+}
+
+
 
